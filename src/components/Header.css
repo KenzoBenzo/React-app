@@ -7,7 +7,7 @@
 }
 
 .HeaderScrolled {
-    background: rgba(0,0,0, 0.8);
+    background: rgba(71,71,71, 0.8);
     padding: 10px 0;
 }
 
@@ -26,20 +26,21 @@
 }
 
 .Header button {
+    color: white;
     padding: 8px 20px;
     font-size: 20px;
-    background: #56CCF2;
-    border: none;
+    background: none;
+    border: 3px solid #27FFAB; /* Teal */
     font-weight: 700;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
     transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Header button:hover {
-    background: white;
-    box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+    background: none;
+    box-shadow: 0 10px 20px rgba(39, 255, 171, 0.55);
     transform: translateY(-3px);
 }
 

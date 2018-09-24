@@ -31,7 +31,7 @@ a{
 
 .Hero h1 {
   margin: 0;
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   color: white;
   font-size: 60px;
   line-height: 1.2;
@@ -45,6 +45,7 @@ a{
 
 .Hero p {
   color: rgba(255, 255, 255, 0.8);
+  padding: 30px 0;
   font-size: 24px;
   line-height: 1.5;
   animation: HeroAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -56,16 +57,17 @@ a{
   font-weight: 600;
   color: white;
   text-transform: uppercase;
-  background: rgba(0,0,0, 0.7);
+  background: #FB4389;
   padding: 9px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  border-radius: 20px;
+  border-radius: 25px;
   transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Hero a:hover {
-  background: white;
-  color: black;
+  background: none;
+  color: white;
+  border: 3px solid rgba(251,67,137, 1);
+  box-shadow: 0px 4px 20px  rgba(251, 67, 137, 0.5);
 }
 
 @media (max-width: 640px) {
@@ -101,9 +103,9 @@ a{
  
 .Hero .Logos {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: 40px;
-  margin: 200px 0;
+  margin: 100px 0 200px 0;
   justify-content: center;
 }
 
